@@ -1,11 +1,10 @@
 #include <Servo.h>
 
-// Smart House Project
 
 Servo servo;
 
 int servo_pin = 9;
-int led_pin = 7;  // Renamed to avoid conflict
+int led_pin = 7; 
 char data; 
 
 void controlGarage(int value) {  
@@ -20,7 +19,7 @@ void controlGarage(int value) {
   }
 }
 
-void controlLED(int value) {  // Renamed to avoid conflict
+void controlLED(int value) {  
   if (value == 1) {
       digitalWrite(led_pin, HIGH);
       Serial.print("LED ON. Received Data: ");
