@@ -1,5 +1,5 @@
 # Smart-House
-A Smart House project with Arduino.
+Home Automation with Arduino
 
 # Circuit Connections 
 
